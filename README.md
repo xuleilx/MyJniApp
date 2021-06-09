@@ -1,0 +1,2 @@
+# MyJniApp
+JNI example
