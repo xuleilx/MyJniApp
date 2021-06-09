@@ -1,0 +1,1 @@
+/home/xuleilx/AndroidStudioProjects/MyJniApp/app/src/main/cpp/CMakeLists.txt

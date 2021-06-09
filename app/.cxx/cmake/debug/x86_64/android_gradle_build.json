@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/xuleilx/mywork/opt/SDK/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/.cxx/cmake/debug/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/xuleilx/mywork/opt/SDK/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/.cxx/cmake/debug/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/home/xuleilx/mywork/opt/SDK/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/.cxx/cmake/debug/x86_64",
+        "native-lib"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "native-lib",
+      "output": "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

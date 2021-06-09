@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/xuleilx/mywork/opt/SDK/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/.cxx/cmake/debug/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/xuleilx/mywork/opt/SDK/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/.cxx/cmake/debug/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommandComponents": [
+        "/home/xuleilx/mywork/opt/SDK/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/.cxx/cmake/debug/arm64-v8a",
+        "native-lib"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/xuleilx/AndroidStudioProjects/MyJniApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

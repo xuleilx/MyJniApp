@@ -1,0 +1,12 @@
+# ninja log v5
+0	285	1623211995	CMakeFiles/native-lib.dir/native-lib.cpp.o	266b99860320ddb7
+285	322	1623211995	/home/xuleilx/AndroidStudioProjects/MyJniApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b970500035de6771
+0	506	1623230485	CMakeFiles/native-lib.dir/native-lib.cpp.o	266b99860320ddb7
+506	1160	1623230486	/home/xuleilx/AndroidStudioProjects/MyJniApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b970500035de6771
+1	480	1623230551	CMakeFiles/native-lib.dir/native-lib.cpp.o	ecef11a5d8e97b85
+481	592	1623230551	/home/xuleilx/AndroidStudioProjects/MyJniApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b970500035de6771
+0	460	1623230963	CMakeFiles/native-lib.dir/native-lib.cpp.o	ecef11a5d8e97b85
+460	573	1623230963	/home/xuleilx/AndroidStudioProjects/MyJniApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b970500035de6771
+0	471	1623231196	CMakeFiles/native-lib.dir/native-lib.cpp.o	ecef11a5d8e97b85
+471	588	1623231196	/home/xuleilx/AndroidStudioProjects/MyJniApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	b970500035de6771
+0	3	0	clean	7ec1b367d1c5bebc

@@ -1,0 +1,7 @@
+Executable : /home/xuleilx/mywork/opt/SDK/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/xuleilx/AndroidStudioProjects/MyJniApp/app/.cxx/cmake/debug/arm64-v8a
+native-lib
+jvmArgs : 
+

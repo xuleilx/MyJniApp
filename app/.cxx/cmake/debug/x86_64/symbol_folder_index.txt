@@ -1,0 +1,1 @@
+/home/xuleilx/AndroidStudioProjects/MyJniApp/app/build/intermediates/cmake/debug/obj/x86_64

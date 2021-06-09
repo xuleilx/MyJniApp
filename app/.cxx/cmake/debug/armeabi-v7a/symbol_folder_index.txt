@@ -1,0 +1,1 @@
+/home/xuleilx/tmp/MyJniApp/app/build/intermediates/cmake/debug/obj/armeabi-v7a
