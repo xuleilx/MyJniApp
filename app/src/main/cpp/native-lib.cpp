@@ -6,7 +6,7 @@
 static JavaVM* gVm = NULL;
 static jclass g_class;
 static jobject g_object;
-jmethodID macAddrCallback;
+jmethodID messageCallbak;
 
 void notifyMacAddress();
 
@@ -40,16 +40,16 @@ Java_com_example_myjniapp_MainActivity_initCallbacks(JNIEnv *env, jobject thiz) 
         return;
     }
     //找到需要调用的方法ID
-    macAddrCallback = env->GetMethodID(g_class,
-                                                 "onMessage", "(Ljava/lang/String;)V");
+    messageCallbak = env->GetMethodID(g_class,
+                                      "onMessage", "(Ljava/lang/String;)V");
     return ;
 }
 
 void notifyMacAddress(){
     //进行回调，ret是java层的返回值（这个有些场景很好用）
     ScopedJniEnv env(gVm);
-    jstring jmacaddress = (env)->NewStringUTF("Hello I`m Alex!OOOO");
-    env->CallVoidMethod(g_object, macAddrCallback,jmacaddress);
+    jstring msg = (env)->NewStringUTF("Hello I`m Alex!OOOO");
+    env->CallVoidMethod(g_object, messageCallbak, msg);
 }
 
 extern "C"
